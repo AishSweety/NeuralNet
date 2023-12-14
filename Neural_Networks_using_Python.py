@@ -1,5 +1,10 @@
-#  A Python code implementing a simple neural network using a modular design with different layer types (fully connected, activation, convolutional, flatten) and a network class for training. 
-#  The code includes forward and backward propagation for each layer, as well as activation functions (tanh) and a loss function (mean squared error).
+"""
+
+A Python code implementing a simple neural network using a modular design with different layer types (fully connected, activation, convolutional, flatten) and a network class for training. 
+The code includes forward and backward propagation for each layer, as well as activation functions (tanh) and a loss function (mean squared error).
+
+"""
+
 from scipy import signal
 import numpy as np
 
@@ -192,10 +197,11 @@ class Network:
             err /= samples
             print('epoch %d/%d   error=%f' % (i+1, epochs, err))
 
+"""
 
-# To train the network on the XOR problem (based on the provided training data) using mean squared error as the loss function. 
-# And to print the predicted outputs after training.
+Training the network on the XOR problem
 
+""" 
 
 # training data
 x_train = np.array([[[0,0]], [[0,1]], [[1,0]], [[1,1]]])
@@ -216,8 +222,12 @@ net.fit(x_train, y_train, epochs=1000, learning_rate=0.1)
 out = net.predict(x_train)
 print(out)
 
+"""
 
-# Implementing a neural network using the MNIST dataset
+Implementing a neural network using the MNIST dataset
+
+
+""" 
 
 from keras.datasets import mnist
 from keras.utils import to_categorical
@@ -262,8 +272,11 @@ print(out, end="\n")
 print("true values : ")
 print(y_test[0:3])
 
+"""
 
-# Convolutional neural network
+Convolutional neural network
+
+""" 
 
 # training data
 x_train = [np.random.rand(10,10,1)]
@@ -285,11 +298,12 @@ net.fit(x_train, y_train, epochs=1000, learning_rate=0.3)
 # test
 out = net.predict(x_train)
 print("predicted = ", out)
-print("expected = ", y_train)
-          
+print("expected = ", y_train)          
 
 """
+
  MNIST CNN with convolutional layer
+
 """
 
 from keras.datasets import mnist
