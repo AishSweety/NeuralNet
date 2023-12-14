@@ -288,7 +288,9 @@ print("predicted = ", out)
 print("expected = ", y_train)
           
 
-# MNIST CNN with convolutional layer
+"""
+ MNIST CNN with convolutional layer
+"""
 
 from keras.datasets import mnist
 from keras.utils import to_categorical
