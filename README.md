@@ -7,5 +7,5 @@ To run:
 
 `python Simple_Neural_Networks_using_Python.py`
 
-#### **Training a hybrid quantum-classical neural network for binary classification.**
+### **Training a hybrid quantum-classical neural network for binary classification.**
 The quantum circuit is used to extract non-linear features from the input data, and the classical neural network is used to combine these features and make predictions. The code demonstrates how quantum circuits can be integrated with classical neural networks to improve the performance of machine learning models on complex tasks.
