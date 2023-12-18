@@ -1,7 +1,7 @@
 """
 
 A Python code implementing a simple neural network using a modular design with different layer types (fully connected, activation, convolutional, flatten) and a network class for training. 
-The code includes forward and backward propagation for each layer, as well as activation functions (tanh) and a loss function (mean squared error).
+The code includes forward and backward propagation for each layer, as well as activation functions (tanh) and a loss function (mean squared error). Code is taken from the article https://towardsdatascience.com/math-neural-network-from-scratch-in-python-d6da9f29ce65 
 
 """
 
