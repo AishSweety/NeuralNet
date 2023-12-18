@@ -3,9 +3,9 @@ This Python code encompasses a modular design for constructing a straightforward
 
 The code further demonstrates the application of neural networks for both the XOR problem and the MNIST dataset. Various examples are presented, including a fully connected neural network, a convolutional neural network (CNN), and a CNN with convolutional layers specifically tailored for the MNIST dataset.
 
-### **Training a hybrid quantum-classical neural network for binary classification.**
+### **Training a hybrid quantum-classical neural network for binary classification**
 The quantum circuit is used to extract non-linear features from the input data, and the classical neural network is used to combine these features and make predictions. The code demonstrates how quantum circuits can be integrated with classical neural networks to improve the performance of machine learning models on complex tasks.
 
-### a simple quantum circuit optimization using PennyLane and PyTorch.
+### Quantum circuit optimization using PennyLane and PyTorch
 
 This code illustrates a basic quantum circuit optimization using PennyLane and PyTorch, demonstrating how the circuit parameters evolve to minimize the cost function and provides insight into the optimization process with the help of visualization.
