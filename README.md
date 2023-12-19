@@ -9,3 +9,6 @@ The quantum circuit is used to extract non-linear features from the input data, 
 ### Quantum circuit optimization using PennyLane and PyTorch
 
 This code illustrates a basic quantum circuit optimization using PennyLane and PyTorch, demonstrating how the circuit parameters evolve to minimize the cost function and provides insight into the optimization process with the help of visualization.
+
+### Training a Convolutional Neural Network (CNN) using PyTorch on the CIFAR-10 dataset
+This code illustrates the process of building a simple CNN from scratch for image classification using the CIFAR-10 dataset. It then goes further to showcase the fine-tuning of a pre-trained ResNet-18 model on a custom flower classification dataset. Fine-tuning is a powerful technique that uses the knowledge gained from training on a large dataset (such as ImageNet) to increase the performance on a smaller, domain-specific dataset.
