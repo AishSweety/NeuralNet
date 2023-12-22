@@ -8,3 +8,6 @@ The quantum circuit is used to extract non-linear features from the input data, 
 
 ### Training a Convolutional Neural Network (CNN) using PyTorch on the CIFAR-10 dataset
 This code illustrates the process of building a simple CNN from scratch for image classification using the CIFAR-10 dataset. We further showcase the fine-tuning of a pre-trained ResNet-18 model on a custom flower classification dataset. Fine-tuning is a powerful technique that uses the knowledge gained from training on a large dataset (such as ImageNet) to increase the performance on a smaller, domain-specific dataset.
+
+### A quantum convolutional neural network (QCNN) model for image classification
+This code implements a quanvolutional neural network (QCNN) for image classification using the PennyLane framework and Tensorflow. A QCNN is a type of neural network that uses quantum circuits to extract features from images. The code first loads the MNIST dataset, which contains images of handwritten digits. Then, it defines a quantum circuit that can be used to convolve images. The circuit is a variational circuit, which means that its parameters can be adjusted during training. Finally, the code trains a QCNN model using the quantum preprocessed images and compares its performance to a classical CNN model that is trained on the raw images.
